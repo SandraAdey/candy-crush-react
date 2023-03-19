@@ -1,4 +1,5 @@
 Matching the number of rows and columns of a certain number to gain points.
+<img width="1356" alt="Screenshot 2023-03-19 at 11 09 20" src="https://user-images.githubusercontent.com/117900792/226171601-afb75519-5350-4de5-b0b4-2ba9a60bda4b.png">
 
 
 # Getting Started with Create React App
