@@ -6,16 +6,18 @@ import yellowCandy from'./images/yellow-candy.png'
 import orangeCandy from'./images/orange-candy.png'
 import redCandy from'./images/red-candy.png'
 import purpleCandy from'./images/purple-candy.png'
+import totoro from './images/totoro.png'
+import black from './images/black.png'
 import blank from'./images/blank.png'
 
 const width = 8
 const candyColors = [
   blueCandy,
-  greenCandy,
   orangeCandy,
   purpleCandy,
   redCandy,
-  yellowCandy
+  black,
+  totoro
 ]
 
 const App = () => {

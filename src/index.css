@@ -1,17 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400&family=Paytone+One&display=swap');
+
+body {
+  background-image: url("./images/spirited-away.png");
+ background-size: 200vh;
+}
 .app {
   display: flex;
   padding:30px;
-
 }
 
 .game{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
   width: 560px;
   height: 560px;
   display: flex;
   flex-wrap:wrap;
+  background: rgba(255, 255, 255, 0.3)
+  
 }
+
 
 .game img {
   width: 70px;
   height: 70px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  transition: 0.3s;
+  height: 150px;
+  width: 200px;
+  color: white;
+}
+.container {
+  padding: 2px 16px;
+}
+.Score-board {
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 40px;
 }
