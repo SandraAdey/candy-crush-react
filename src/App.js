@@ -7,16 +7,20 @@ import orangeCandy from'./images/orange-candy.png'
 import redCandy from'./images/red-candy.png'
 import purpleCandy from'./images/purple-candy.png'
 import totoro from './images/totoro.png'
-import black from './images/black.png'
+import noface from './images/noface.png'
+import cat from './images/cat.png'
+import fire from './images/fire.png'
+import gran from './images/gran.png'
+import ani from './images/ani.png'
 import blank from'./images/blank.png'
 
 const width = 8
 const candyColors = [
-  blueCandy,
-  orangeCandy,
-  purpleCandy,
-  redCandy,
-  black,
+  ani,
+  fire,
+  gran,
+  cat,
+  noface,
   totoro
 ]
 
@@ -218,7 +222,6 @@ const dragEnd = () => {
     currentColorArrangement,
   ])
 
-  
 
   return (
     <div className="app">
@@ -240,6 +243,8 @@ const dragEnd = () => {
         ))}
       </div>
       <ScoreBoard score={scoreDisplay}/>
+
+      
     </div>
   )
 }
